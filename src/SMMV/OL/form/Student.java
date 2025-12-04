@@ -185,6 +185,11 @@ public class Student extends javax.swing.JPanel {
         buttonGradient4.setColor1(new java.awt.Color(0, 0, 255));
         buttonGradient4.setColor2(new java.awt.Color(139, 139, 252));
         buttonGradient4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        buttonGradient4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonGradient4ActionPerformed(evt);
+            }
+        });
 
         buttonGradient5.setText("Delete Subject");
         buttonGradient5.setColor1(new java.awt.Color(0, 0, 255));
@@ -838,6 +843,10 @@ public class Student extends javax.swing.JPanel {
             .addComponent(background1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
+
+    private void buttonGradient4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonGradient4ActionPerformed
+        System.out.println("Hi");
+    }//GEN-LAST:event_buttonGradient4ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
